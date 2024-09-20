@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nbi_home"
+        android:icon="@drawable/ic_home_outline"
+        android:title="@string/nbi_home" />
+    <item
+        android:id="@+id/nbi_create_workout"
+        android:icon="@drawable/ic_add"
+        android:title="@string/nbi_create_workout" />
+    <item
+        android:id="@+id/nbi_workouts"
+        android:icon="@drawable/ic_search"
+        android:title="@string/nbi_workouts" />
+</menu>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MOVE ProFit</string>
+    <string name="login_message">Não possui uma conta? Cadastre-se</string>
+    <string name="login_main_btn">Entrar</string>
+    <string name="edt_email">Email</string>
+    <string name="edt_password">Senha</string>
+    <string name="edt_confirm_password">Confirmar Senha</string>
+    <string name="edt_username">Nome</string>
+    <string name="register_main_btn">Criar Conta</string>
+    <string name="register_message">Já possui uma conta? Entre</string>
+    <string name="nbi_home">Home</string>
+    <string name="nbi_create_workout">Criar Treino</string>
+    <string name="nbi_workouts">Treinos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tam_logout">Sair</string>
+</resources>

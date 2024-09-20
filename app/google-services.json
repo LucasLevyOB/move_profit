@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "895367900139",
+    "project_id": "move-profit",
+    "storage_bucket": "move-profit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895367900139:android:326d86adc302d31e4d87ae",
+        "android_client_info": {
+          "package_name": "com.example.moveprofit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJLHakjW0fZdVRhR-SoCs2MvTTuaSS7GY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

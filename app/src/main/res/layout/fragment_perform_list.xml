@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerformListFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="32dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcv_workout_exercises"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="28dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_back_to_home_workout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Voltar"
+                android:layout_gravity="end"
+                android:layout_marginEnd="12dp"
+                style="@style/Widget.Material3.Button.OutlinedButton"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_start_workout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iniciar Treino" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
